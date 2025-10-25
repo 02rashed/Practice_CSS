@@ -1,0 +1,29 @@
+/* to custom color,font-size,border,padding,alignment content and sections,background color,control size of the container */
+h1{
+    color:rgba(1, 69, 47, 0.81);
+    border:5px solid black;
+    text-align:center;
+    max-width: fit-content;
+    border-top:wheat groove;
+    border-bottom:brown inset;
+    border-left:rgb(19, 56, 19 , 0.8) outset;
+    border-right:rgb(0, 0, 0 ,0.6) outset;
+    padding:10px;
+    background-color:rgba(168, 197, 41, 0.3);
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:15px;
+
+}
+section{
+    background-color: rgba(88, 188, 25, 0.4);
+    width:400px;
+    height:200px;
+    align-content: center;
+    text-align:center;
+    padding:20px;
+    border-radius:50px 50px 0px 50px;
+    border-bottom:10px inset rgb(1, 1, 1 ,0.5);
+    border-right:12px inset rgb(1, 1, 1 ,0.5);
+    border-top:2px inset rgb(1, 1, 1 ,0.3);
+    border-left:1px inset rgb(1, 1, 1 ,0.5);
+}
